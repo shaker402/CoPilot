@@ -1,0 +1,26 @@
+version = 1
+
+[[analyzers]]
+name = "shell"
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  environment = [
+    "browser",
+    "mocha",
+    "nodejs",
+    "jquery",
+    "jest",
+    "vitest",
+    "cypress",
+    "jasmine",
+    "mongo"
+  ]
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
